@@ -1,0 +1,57 @@
+.ChatRoom {
+  background: #2c3a47;
+}
+.chat {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+}
+.new-message {
+  margin: 0 15px;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 15px;
+  outline: none;
+  width: 70vw;
+  background-color: aliceblue;
+  color: #2c3a47;
+}
+.send-btn {
+  padding: 10px 0px;
+  color: white;
+  background-color: #b53471;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  width: 20vw;
+}
+.send-btn:hover {
+  background-color: #833471;
+  color: white;
+}
+.messages {
+  margin-left: 10vw;
+  margin-top: 5vh;
+}
+.user {
+  font-size: 15px;
+  font-weight: 600;
+  color: #12cbc4;
+}
+.message {
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+  margin-top: 5px;
+}
+@media screen and (max-width: 600px) {
+  .new-message {
+    width: 60vw;
+  }
+  .send-btn {
+    width: 20vw;
+  }
+}
