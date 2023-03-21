@@ -56,4 +56,7 @@
   .send-btn {
     width: 20vw;
   }
+  .messages {
+    max-height: 60vh;
+  }
 }
