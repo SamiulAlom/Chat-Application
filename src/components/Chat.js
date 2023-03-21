@@ -51,8 +51,8 @@ export default function Chat({ room }) {
       <div className="messages">
         {messages.map((message) => (
           <div key={message.id} className="message">
-            <span className="user"> 🗨️ {message.user}</span>
-            <p className="message"> ➡️ {message.text}</p>
+            <span className="user"> 👤 {message.user}</span>
+            <p className="message"> 🗨️ {message.text}</p>
           </div>
         ))}
       </div>

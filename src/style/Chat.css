@@ -35,6 +35,8 @@
 .messages {
   margin-left: 10vw;
   margin-top: 5vh;
+  max-height: 80vh;
+  overflow: auto;
 }
 .user {
   font-size: 15px;

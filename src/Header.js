@@ -3,7 +3,7 @@ export default function Head({ text, room, signOutUser }) {
     <div className="header">
       <p className="text">
         {" "}
-        {text} {room ? room.toUpperCase() : ""}{" "}
+        {text} {room ? room : ""}{" "}
       </p>
       <span>
         {signOutUser ? (
